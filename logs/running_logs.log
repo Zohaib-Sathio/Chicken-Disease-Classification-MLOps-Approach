@@ -1,0 +1,5 @@
+[2024-09-20 01:18:53,014:INFO:__init__:Logging setup complete. Logs will be written to: logs\running_logs.log:]
+[2024-09-20 01:18:53,014:INFO:__init__:This is a test log message.:]
+[2024-09-20 01:19:15,571:INFO:__init__:Logging setup complete. Logs will be written to: logs\running_logs.log:]
+[2024-09-20 01:19:15,571:INFO:__init__:This is a test log message.:]
+[2024-09-20 01:19:15,576:INFO:main:Welcome to my custom logs!:]
