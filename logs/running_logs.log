@@ -3,3 +3,152 @@
 [2024-09-20 01:19:15,571:INFO:__init__:Logging setup complete. Logs will be written to: logs\running_logs.log:]
 [2024-09-20 01:19:15,571:INFO:__init__:This is a test log message.:]
 [2024-09-20 01:19:15,576:INFO:main:Welcome to my custom logs!:]
+[2024-09-20 22:21:21,237:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:21:21,253:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:24:08,850:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:24:08,852:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:24:57,332:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:24:57,335:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:25:42,229:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:25:42,232:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:27:22,049:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:27:22,052:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:29:44,037:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:29:44,040:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:31:06,183:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:31:06,189:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:33:54,805:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:33:54,811:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:34:50,961:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:34:50,964:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:35:01,937:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:35:01,939:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:35:18,089:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:35:18,091:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:35:34,336:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:35:34,351:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:36:43,718:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:36:43,723:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:38:28,408:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:38:28,411:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:39:43,306:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:39:43,308:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:40:05,062:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:40:05,065:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:40:18,051:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:40:18,055:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:45:14,980:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:45:14,983:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:52:03,532:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:52:03,534:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:52:25,387:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:52:25,424:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:52:56,594:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:52:56,599:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:53:23,584:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:53:23,588:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 22:59:13,861:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 22:59:13,866:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:00:35,188:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:00:35,194:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:00:47,898:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:00:47,905:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:01:40,908:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:01:40,912:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:02:16,704:INFO:3104699686:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3E7:1133:13868E:13FE55:66EDB890
+Accept-Ranges: bytes
+Date: Fri, 20 Sep 2024 18:01:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990023-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726855313.272601,VS0,VE2918
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 25a3ce8bffebe765d247c5a457491619e3a966a5
+Expires: Fri, 20 Sep 2024 18:06:56 GMT
+Source-Age: 2
+
+:]
+[2024-09-20 23:02:46,348:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:02:46,351:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:02:46,352:INFO:3104699686:File already exists of size: get_size(Path(self.config.local_data_file)):]
+[2024-09-20 23:03:41,180:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:03:41,182:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:05:05,723:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:05:05,726:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:05:16,733:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:05:16,736:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:05:16,739:INFO:337096913:11345:]
+[2024-09-20 23:05:16,740:INFO:337096913:File already exists of size: get_size(Path(self.config.local_data_file)):]
+[2024-09-20 23:05:57,851:INFO:common:yaml file: config\config.yaml loaded successfully.:]
+[2024-09-20 23:05:57,854:INFO:common:yaml file: params.yaml loaded successfully.:]
+[2024-09-20 23:05:57,856:INFO:43553147:File already exists of size: 11345 KB:]
+[2024-09-20 23:31:19,282:INFO:main:>>>> stage Data Ingestion Stage started <<<<<:]
+[2024-09-20 23:31:19,287:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-20 23:31:19,287:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-20 23:31:19,287:INFO:data_ingestion:File already exists of size: 11345 KB:]
+[2024-09-20 23:31:19,787:INFO:main:>>>> stage Data Ingestion Stage completed <<<<< 
+ 
+ x=========x:]
+[2024-09-20 23:31:37,385:INFO:main:>>>> stage Data Ingestion Stage started <<<<<:]
+[2024-09-20 23:31:37,390:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-20 23:31:37,390:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-20 23:31:40,092:ERROR:main:[Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip':]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\Chicken Disease Classification\Chicken-Disease-Classification-MLOps-Approach\main.py", line 9, in <module>
+    obj.main()
+  File "C:\Users\HP\Desktop\Chicken Disease Classification\Chicken-Disease-Classification-MLOps-Approach\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "C:\Users\HP\Desktop\Chicken Disease Classification\Chicken-Disease-Classification-MLOps-Approach\src\cnnClassifier\components\data_ingestion.py", line 16, in download_file
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\anaconda3\envs\chickDis\Lib\urllib\request.py", line 251, in urlretrieve
+    tfp = open(filename, 'wb')
+          ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-09-20 23:34:00,451:INFO:main:>>>> stage Data Ingestion Stage started <<<<<:]
+[2024-09-20 23:34:00,456:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-20 23:34:00,456:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-20 23:34:34,193:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3E7:1133:13868E:13FE55:66EDB890
+Accept-Ranges: bytes
+Date: Fri, 20 Sep 2024 18:34:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990022-FJR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1726857254.790930,VS0,VE11
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0286d7d45e7447abc668ca816ae7ca6764a3d115
+Expires: Fri, 20 Sep 2024 18:39:13 GMT
+Source-Age: 143
+
+:]
+[2024-09-20 23:34:34,743:INFO:main:>>>> stage Data Ingestion Stage completed <<<<< 
+ 
+ x=========x:]
