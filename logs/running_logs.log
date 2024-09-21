@@ -230,3 +230,15 @@ AttributeError: module 'keras._tf_keras.keras.layers' has no attribute 'flatten'
 [2024-09-21 12:22:25,435:INFO:main:>>>> stage Prepare Base Model Stage completed <<<<< 
  
  x=========x:]
+[2024-09-21 13:04:48,002:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-21 13:04:48,006:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-21 13:04:48,010:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2024-09-21 13:04:48,015:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2024-09-21 13:06:44,172:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-21 13:06:44,172:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-21 13:06:44,180:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2024-09-21 13:06:44,180:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2024-09-21 13:06:53,279:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-21 13:06:53,288:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-21 13:06:53,292:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2024-09-21 13:06:53,297:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
