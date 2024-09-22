@@ -437,3 +437,66 @@ Source-Age: 0
 [2024-09-21 22:20:19,578:INFO:main:>>>> stage Training Stage completed <<<<< 
  
  x=========x:]
+[2024-09-22 12:56:15,773:INFO:main:>>>> stage Data Ingestion Stage started <<<<<:]
+[2024-09-22 12:56:15,779:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-22 12:56:15,787:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-22 12:56:52,925:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F150:10F0:6B57EE:6FDD6D:66EFCDA3
+Accept-Ranges: bytes
+Date: Sun, 22 Sep 2024 07:56:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990028-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1726991779.333178,VS0,VE2860
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b1840a8a6cc7f39778b0af44cdb643604bd8f7f8
+Expires: Sun, 22 Sep 2024 08:01:22 GMT
+Source-Age: 2
+
+:]
+[2024-09-22 12:56:54,216:INFO:main:>>>> stage Data Ingestion Stage completed <<<<< 
+ 
+ x=========x:]
+[2024-09-22 12:56:54,244:INFO:main:*********************:]
+[2024-09-22 12:56:54,260:INFO:main:>>>> stage Prepare Base Model Stage started <<<<<:]
+[2024-09-22 12:56:54,292:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-22 12:56:54,315:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-22 12:56:55,509:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2024-09-22 12:56:56,817:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2024-09-22 12:56:58,531:INFO:main:>>>> stage Prepare Base Model Stage completed <<<<< 
+ 
+ x=========x:]
+[2024-09-22 12:56:58,865:INFO:main:>>>> stage Training Stage started <<<<<:]
+[2024-09-22 12:56:58,951:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-22 12:56:58,963:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-22 12:56:59,120:INFO:common:created directory at: artifacts\prepare_callbacks\checkpoint_dir:]
+[2024-09-22 12:56:59,146:INFO:common:created directory at: artifacts\prepare_callbacks\tensorboard_log_dir:]
+[2024-09-22 12:56:59,148:INFO:configuration:Returning prepare callback config:]
+[2024-09-22 12:56:59,225:INFO:common:created directory at: artifacts\training:]
+[2024-09-22 12:56:59,938:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-09-22 12:59:01,132:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. :]
+[2024-09-22 12:59:01,380:INFO:main:>>>> stage Training Stage completed <<<<< 
+ 
+ x=========x:]
+[2024-09-22 12:59:01,383:INFO:main:>>>> stage Evaluation Stage started <<<<<:]
+[2024-09-22 12:59:01,407:INFO:common:yaml file: config\config.yaml loaded successfully:]
+[2024-09-22 12:59:01,416:INFO:common:yaml file: params.yaml loaded successfully:]
+[2024-09-22 12:59:02,794:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-09-22 12:59:31,670:INFO:evaluation:loss": 1.8981733322143555, "accuracy": 0.8706896305084229:]
+[2024-09-22 12:59:31,676:INFO:common:json file saved at: scores.json:]
+[2024-09-22 12:59:31,676:INFO:main:>>>> stage Evaluation Stage completed <<<<< 
+ 
+ x=========x:]

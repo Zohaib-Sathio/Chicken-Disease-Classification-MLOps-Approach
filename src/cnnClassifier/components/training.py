@@ -14,7 +14,7 @@ class Training:
         self.model = tf.keras.models.load_model(
             self.config.updated_base_model_path
         )
-        optimizer = tf.keras.optimizers.Adam(learning_rate=0.01)  # Adjust as needed
+        optimizer = tf.keras.optimizers.Adam(learning_rate=0.01)
         self.model.compile(optimizer=optimizer, loss='binary_crossentropy', metrics=['accuracy'])
     
     def train_valid_generator(self):
