@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
+
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 from src.cnnClassifier import logger
@@ -21,6 +26,8 @@ if __name__ == '__main__':
         logger.info(f">>>> stage {STAGE_NAME} started <<<<<")
         obj = DataIngestionTrainingPipeline()
         obj.main()
+        direc = os.getcwd()
+        logger.info(f' {direc}')
         logger.info(f'>>>> stage {STAGE_NAME} completed <<<<< \n \n x=========x')
     except Exception as e:
         logger.exception(e)
